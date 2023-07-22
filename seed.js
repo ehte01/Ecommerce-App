@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Product = require("./models/Product")
 
-mongoose.connect("mongodb://127.0.0.1:27017/ecomm-careerbootcamp")
+mongoose.connect("mongodb+srv://ehteahmad:0gvXTN5yq8HrSluS@cluster0.h5s6ofc.mongodb.net/?retryWrites=true&w=majority")
 .then(()=> console.log("db connected sucessfully".blue))
 .catch((err)=> console.log(err));
 
